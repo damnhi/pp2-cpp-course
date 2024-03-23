@@ -1,0 +1,54 @@
+/tmp/tmpaazfl4uj/student/lab2systems/linux.cpp:22:5: warning: Variable 'distribution_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    distribution_ = newDistribution_;
+    ^
+/tmp/tmpaazfl4uj/student/lab2systems/linux.cpp:20:26: warning: Function parameter 'newDistribution_' should be passed by const reference. [passedByValue]
+Linux::Linux(std::string newDistribution_)
+                         ^
+/tmp/tmpaazfl4uj/student/lab2systems/linux.cpp:48:33: warning: Function parameter 'username' should be passed by const reference. [passedByValue]
+int Linux::add_user(std::string username, std::string password)
+                                ^
+/tmp/tmpaazfl4uj/student/lab2systems/linux.cpp:48:55: warning: Function parameter 'password' should be passed by const reference. [passedByValue]
+int Linux::add_user(std::string username, std::string password)
+                                                      ^
+/tmp/tmpaazfl4uj/student/lab2systems/linux.cpp:75:49: warning: Function parameter 'graphicEnvName' should be passed by const reference. [passedByValue]
+void Linux::set_graphic_environment(std::string graphicEnvName){
+                                                ^
+/tmp/tmpaazfl4uj/student/lab2systems/windows.cpp:24:5: warning: Variable 'version_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    version_ = difVersion;
+    ^
+/tmp/tmpaazfl4uj/student/lab2systems/windows.cpp:22:30: warning: Function parameter 'difVersion' should be passed by const reference. [passedByValue]
+Windows::Windows(std::string difVersion)
+                             ^
+/tmp/tmpaazfl4uj/student/lab2systems/windows.cpp:34:35: warning: Function parameter 'username' should be passed by const reference. [passedByValue]
+int Windows::add_user(std::string username, std::string password)
+                                  ^
+/tmp/tmpaazfl4uj/student/lab2systems/windows.cpp:34:57: warning: Function parameter 'password' should be passed by const reference. [passedByValue]
+int Windows::add_user(std::string username, std::string password)
+                                                        ^
+/tmp/tmpaazfl4uj/student/lab2systems/linux.cpp:35:0: warning: The function 'distribution' is never used. [unusedFunction]
+std::string Linux::distribution()
+^
+/tmp/tmpaazfl4uj/student/lab2systems/linux.cpp:41:0: warning: The function 'open_source_sympathizers' is never used. [unusedFunction]
+std::size_t Linux::open_source_sympathizers()
+^
+/tmp/tmpaazfl4uj/student/lab2systems/linux.cpp:48:0: warning: The function 'add_user' is never used. [unusedFunction]
+int Linux::add_user(std::string username, std::string password)
+^
+/tmp/tmpaazfl4uj/student/lab2systems/linux.cpp:57:0: warning: The function 'user' is never used. [unusedFunction]
+User Linux::user(std::size_t user_id)
+^
+/tmp/tmpaazfl4uj/student/lab2systems/linux.cpp:62:0: warning: The function 'user_home_directory' is never used. [unusedFunction]
+std::string Linux::user_home_directory(const int user_id)
+^
+/tmp/tmpaazfl4uj/student/lab2systems/linux.cpp:69:0: warning: The function 'graphic_environment' is never used. [unusedFunction]
+std::optional<std::string> Linux::graphic_environment() const
+^
+/tmp/tmpaazfl4uj/student/lab2systems/linux.cpp:75:0: warning: The function 'set_graphic_environment' is never used. [unusedFunction]
+void Linux::set_graphic_environment(std::string graphicEnvName){
+^
+/tmp/tmpaazfl4uj/student/lab2systems/windows.cpp:13:0: warning: The function 'version' is never used. [unusedFunction]
+std::string Windows::version()
+^
+/tmp/tmpaazfl4uj/student/lab2systems/windows.cpp:29:0: warning: The function 'activated_systems' is never used. [unusedFunction]
+std::size_t Windows::activated_systems()
+^

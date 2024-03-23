@@ -1,0 +1,128 @@
+Running main() from /tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/unitTests/lib/googletest/src/gtest_main.cc
+[==========] Running 15 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 15 tests from ObjectListTester
+[ RUN      ] ObjectListTester.constructionWithDefaultConstructor_expectedAllElementsAreZero
+[       OK ] ObjectListTester.constructionWithDefaultConstructor_expectedAllElementsAreZero (0 ms)
+[ RUN      ] ObjectListTester.pushFrontOfElements_expectedSizeIncreases
+[       OK ] ObjectListTester.pushFrontOfElements_expectedSizeIncreases (0 ms)
+[ RUN      ] ObjectListTester.pushFrontOfDuplicatedElements_expectedSizeIncreasesOnlyWhenUniqueElementAdded
+[       OK ] ObjectListTester.pushFrontOfDuplicatedElements_expectedSizeIncreasesOnlyWhenUniqueElementAdded (0 ms)
+[ RUN      ] ObjectListTester.popFrontOfElements_expectedSizeDecreases
+[       OK ] ObjectListTester.popFrontOfElements_expectedSizeDecreases (0 ms)
+[ RUN      ] ObjectListTester.frontOfLists_expectedCorrectFirstElementReturned
+[       OK ] ObjectListTester.frontOfLists_expectedCorrectFirstElementReturned (0 ms)
+[ RUN      ] ObjectListTester.clear_expectedAllElementsRemoved
+[       OK ] ObjectListTester.clear_expectedAllElementsRemoved (0 ms)
+[ RUN      ] ObjectListTester.reverse_expectedAllElementsReversed
+[       OK ] ObjectListTester.reverse_expectedAllElementsReversed (0 ms)
+[ RUN      ] ObjectListTester.iteratorMethodsSyntaxCorrect_expectedChecksPasses
+[       OK ] ObjectListTester.iteratorMethodsSyntaxCorrect_expectedChecksPasses (0 ms)
+[ RUN      ] ObjectListTester.loopingWithIterators_expectedSuccess
+[       OK ] ObjectListTester.loopingWithIterators_expectedSuccess (0 ms)
+[ RUN      ] ObjectListTester.eraseAfterMiddleElement_expectedMiddleElementErased
+[       OK ] ObjectListTester.eraseAfterMiddleElement_expectedMiddleElementErased (0 ms)
+[ RUN      ] ObjectListTester.eraseMiddleElement_expectedMiddleElementErased
+[       OK ] ObjectListTester.eraseMiddleElement_expectedMiddleElementErased (0 ms)
+[ RUN      ] ObjectListTester.copyConstructorImplemented_expected2ListsWithTheSameElementsInTheSameOrder
+[       OK ] ObjectListTester.copyConstructorImplemented_expected2ListsWithTheSameElementsInTheSameOrder (0 ms)
+[ RUN      ] ObjectListTester.moveConstructorImplemented_expectedAllElementsMovedToOrderContainer
+[       OK ] ObjectListTester.moveConstructorImplemented_expectedAllElementsMovedToOrderContainer (0 ms)
+[ RUN      ] ObjectListTester.assignmentOperatorCopying_expectedNewValues
+[       OK ] ObjectListTester.assignmentOperatorCopying_expectedNewValues (0 ms)
+[ RUN      ] ObjectListTester.assignmentOperatorMoving_expectedAllElementsMoved
+[       OK ] ObjectListTester.assignmentOperatorMoving_expectedAllElementsMoved (0 ms)
+[----------] 15 tests from ObjectListTester (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 15 tests.
+Running main() from /tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/unitTests/lib/googletest/src/gtest_main.cc
+[==========] Running 6 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from CommandsParserSystemTester
+[ RUN      ] CommandsParserSystemTester.executingOurProgramWithoutAnyInput_expectedNoOutput
+[       OK ] CommandsParserSystemTester.executingOurProgramWithoutAnyInput_expectedNoOutput (1 ms)
+[ RUN      ] CommandsParserSystemTester.testInvalidCommand
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/executableTests.cpp:198: Failure
+Expected equality of these values:
+  expectedLinesOfStderrOutput
+    Which is: 1
+  output.linesOfStderr_.size()
+    Which is: 0
+[  FAILED  ] CommandsParserSystemTester.testInvalidCommand (2 ms)
+[----------] 2 tests from CommandsParserSystemTester (4 ms total)
+
+[----------] 4 tests from CommandsParserSystemTester/CommandsParserSystemTester
+[ RUN      ] CommandsParserSystemTester/CommandsParserSystemTester.testVariousScenariosUsingInputAndOutputFiles/0
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/executableTests.cpp:208: Failure
+Expected equality of these values:
+  expectedOutputFileLines.size()
+    Which is: 1
+  output.linesOfStdout_.size()
+    Which is: 0
+expectedOutput:
+StringObject("Kazdy test, ktory przechodzi, to wiecej punktow!")
+
+realOutput:
+
+[  FAILED  ] CommandsParserSystemTester/CommandsParserSystemTester.testVariousScenariosUsingInputAndOutputFiles/0, where GetParam() = "sumStringObject" (1 ms)
+[ RUN      ] CommandsParserSystemTester/CommandsParserSystemTester.testVariousScenariosUsingInputAndOutputFiles/1
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/executableTests.cpp:208: Failure
+Expected equality of these values:
+  expectedOutputFileLines.size()
+    Which is: 1
+  output.linesOfStdout_.size()
+    Which is: 0
+expectedOutput:
+DoubleObject(5.000000)
+
+realOutput:
+
+[  FAILED  ] CommandsParserSystemTester/CommandsParserSystemTester.testVariousScenariosUsingInputAndOutputFiles/1, where GetParam() = "sumDoubleObject" (1 ms)
+[ RUN      ] CommandsParserSystemTester/CommandsParserSystemTester.testVariousScenariosUsingInputAndOutputFiles/2
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/executableTests.cpp:208: Failure
+Expected equality of these values:
+  expectedOutputFileLines.size()
+    Which is: 4
+  output.linesOfStdout_.size()
+    Which is: 0
+expectedOutput:
+IntObject(6)
+DoubleObject(10.000000)
+StringObject("Grazyna i JanuszGrazyna i Janusz")
+ComplexObject(8+4i)
+
+realOutput:
+
+[  FAILED  ] CommandsParserSystemTester/CommandsParserSystemTester.testVariousScenariosUsingInputAndOutputFiles/2, where GetParam() = "mulDifferentTypes" (1 ms)
+[ RUN      ] CommandsParserSystemTester/CommandsParserSystemTester.testVariousScenariosUsingInputAndOutputFiles/3
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/executableTests.cpp:208: Failure
+Expected equality of these values:
+  expectedOutputFileLines.size()
+    Which is: 5
+  output.linesOfStdout_.size()
+    Which is: 0
+expectedOutput:
+ComplexObject(1+4i)
+ComplexObject(4-2i)
+ComplexObject(44)
+ComplexObject(0+22i)
+ComplexObject(0+1i)
+
+realOutput:
+
+[  FAILED  ] CommandsParserSystemTester/CommandsParserSystemTester.testVariousScenariosUsingInputAndOutputFiles/3, where GetParam() = "getByIndexComplexObject" (1 ms)
+[----------] 4 tests from CommandsParserSystemTester/CommandsParserSystemTester (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 2 test suites ran. (10 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 5 tests, listed below:
+[  FAILED  ] CommandsParserSystemTester.testInvalidCommand
+[  FAILED  ] CommandsParserSystemTester/CommandsParserSystemTester.testVariousScenariosUsingInputAndOutputFiles/0, where GetParam() = "sumStringObject"
+[  FAILED  ] CommandsParserSystemTester/CommandsParserSystemTester.testVariousScenariosUsingInputAndOutputFiles/1, where GetParam() = "sumDoubleObject"
+[  FAILED  ] CommandsParserSystemTester/CommandsParserSystemTester.testVariousScenariosUsingInputAndOutputFiles/2, where GetParam() = "mulDifferentTypes"
+[  FAILED  ] CommandsParserSystemTester/CommandsParserSystemTester.testVariousScenariosUsingInputAndOutputFiles/3, where GetParam() = "getByIndexComplexObject"
+
+ 5 FAILED TESTS

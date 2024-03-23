@@ -1,0 +1,28 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Katalog do zbudowanego projektu: /tmp/tmptes_9q19/student/zaj13FileMatrix/build
+ + Znaleziono nagłówki: /tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp
+ + Znaleziono źródła: /tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.cpp;/tmp/tmptes_9q19/student/zaj13FileMatrix/main.cpp
+ + Znaleziono źródła bez main.cpp: /tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.cpp
+	* valgrind found: /usr/bin/valgrind
+-- Found Python: /tmp/tmp02nz9izz/teacher/test-venv/bin/python3 (found version "3.11.0") found components: Interpreter 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+ + Znaleziono pliki testów: /tmp/tmptes_9q19/student/zaj13FileMatrix/unitTests/FileMatrixTests.cpp
+ + katalog nagłówków: 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmptes_9q19/student/zaj13FileMatrix/build

@@ -1,0 +1,24 @@
+[ 14%] Building CXX object tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 28%] Linking CXX static library ../../../lib/libgtest.a
+[ 28%] Built target gtest
+[ 42%] Building CXX object tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 57%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 57%] Built target gtest_main
+[ 71%] Building CXX object tests/CMakeFiles/tests.dir/__/containerWrapper.cpp.o
+[ 85%] Building CXX object tests/CMakeFiles/tests.dir/containerWrapperTests.cpp.o
+/tmp/tmpq55guvq6/student/lab5ContainerBenchmark/containerWrapper.cpp:12:6: warning: #warning is a GCC extension
+   12 |     #warning "Klasa jest do zaimplementowania. Instrukcja w pliku naglowkowym"
+      |      ^~~~~~~
+/tmp/tmpq55guvq6/student/lab5ContainerBenchmark/containerWrapper.cpp:12:6: warning: #warning "Klasa jest do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
+In file included from /tmp/tmpq55guvq6/student/lab5ContainerBenchmark/containerWrapper.cpp:9:
+/tmp/tmpq55guvq6/student/lab5ContainerBenchmark/containerWrapper.h: In constructor ‘DequeWrapper::DequeWrapper(const value_type*, std::size_t)’:
+/tmp/tmpq55guvq6/student/lab5ContainerBenchmark/containerWrapper.h:174:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  174 |             for (int i = 0; i < size; ++i) {
+      |                             ~~^~~~~~
+In file included from /tmp/tmpq55guvq6/student/lab5ContainerBenchmark/tests/containerWrapperTests.cpp:6:
+/tmp/tmpq55guvq6/student/lab5ContainerBenchmark/tests/../containerWrapper.h: In constructor ‘DequeWrapper::DequeWrapper(const value_type*, std::size_t)’:
+/tmp/tmpq55guvq6/student/lab5ContainerBenchmark/tests/../containerWrapper.h:174:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  174 |             for (int i = 0; i < size; ++i) {
+      |                             ~~^~~~~~
+[100%] Linking CXX executable ../bin/tests
+[100%] Built target tests

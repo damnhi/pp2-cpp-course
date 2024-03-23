@@ -1,0 +1,162 @@
+{
+  "tests": 14,
+  "failures": 0,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2023-04-04T21:15:37Z",
+  "time": "0s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "SimpleStringTester",
+      "tests": 14,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2023-04-04T21:15:37Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "constructionWithDefaultConstructor_expectedAllElementsAreZero",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 41,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        },
+        {
+          "name": "constructionFromText_expectedDataCopied",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 50,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        },
+        {
+          "name": "constructionFromEmptyText_expectedEmptyTextCopied",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 64,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        },
+        {
+          "name": "copyConstruction_expectedDataCopied",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 77,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        },
+        {
+          "name": "destructor_expectedMemoryFreed",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 97,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        },
+        {
+          "name": "instanceMethod_expectedCountedAllLivingInstances",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 120,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        },
+        {
+          "name": "assign_expectedNewTextSet",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 135,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        },
+        {
+          "name": "equalToWithoutIgnoringCases",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 163,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        },
+        {
+          "name": "equalToWithDifferentCaseSettings",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 205,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        },
+        {
+          "name": "appendOneTextAnotherOne_expectedBothTextMerged",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 226,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        },
+        {
+          "name": "substr_expectedPartOfTextReturned",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 245,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        },
+        {
+          "name": "movingConstructor",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 260,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        },
+        {
+          "name": "compareTextWithCases_expectedComparingWorks",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 276,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        },
+        {
+          "name": "compareTextWithoutCases_expectedComparingWorks",
+          "file": "\/tmp\/tmp59ho0fv4\/student\/lab4SimpleString\/tests\/simpleStringTests.cpp",
+          "line": 299,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-04T21:15:37Z",
+          "time": "0s",
+          "classname": "SimpleStringTester"
+        }
+      ]
+    }
+  ]
+}

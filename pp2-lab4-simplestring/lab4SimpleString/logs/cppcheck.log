@@ -1,0 +1,30 @@
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.h:130:20: warning: Class 'SimpleString' does not have a operator= which is recommended since it has dynamic memory/resource allocation(s). [noOperatorEq]
+    SimpleString():data_(new char[1]{}), size_(0), capacity_(0){instances_++;}
+                   ^
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.h:131:5: warning: Class 'SimpleString' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    SimpleString(const char* text);
+    ^
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:18:5: warning: Class 'SimpleString' does not have a operator= which is recommended since it has dynamic memory/resource allocation(s). [noOperatorEq]
+    data_= new char[size_+1];
+    ^
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:14:0: warning: The function 'c_str' is never used. [unusedFunction]
+char *SimpleString::c_str() const {
+^
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:40:0: warning: The function 'instances' is never used. [unusedFunction]
+std::size_t SimpleString::instances() {
+^
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:44:0: warning: The function 'assign' is never used. [unusedFunction]
+void SimpleString::assign(const char *new_text) {
+^
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:53:0: warning: The function 'equal_to' is never used. [unusedFunction]
+bool SimpleString::equal_to(const SimpleString& second_string, bool case_sensitive) const{
+^
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:71:0: warning: The function 'append' is never used. [unusedFunction]
+void SimpleString::append(const SimpleString &second_string){
+^
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:82:0: warning: The function 'substr' is never used. [unusedFunction]
+SimpleString SimpleString::substr(size_t pos, size_t count) const {
+^
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:97:0: warning: The function 'compare' is never used. [unusedFunction]
+int SimpleString::compare(const SimpleString& text1, bool case_sensitive) const {
+^

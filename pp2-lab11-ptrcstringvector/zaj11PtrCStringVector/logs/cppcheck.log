@@ -1,0 +1,6 @@
+/tmp/tmp7u081lgr/student/zaj11PtrCStringVector/PtrCStringVector.cpp:159:9: warning: Common realloc mistake: 'data_' nulled but not freed upon failure [memleakOnRealloc]
+        data_ = (char **)(realloc(data_, new_capacity * sizeof(char *)));
+        ^
+/tmp/tmp7u081lgr/student/zaj11PtrCStringVector/PtrCStringVector.cpp:159:17: warning: C-style pointer casting [cstyleCast]
+        data_ = (char **)(realloc(data_, new_capacity * sizeof(char *)));
+                ^

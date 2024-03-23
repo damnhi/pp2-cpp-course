@@ -1,0 +1,42 @@
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.h:41:17: warning: Member variable 'ObjectList::size_of_list' is not assigned a value in 'ObjectList::operator='. [operatorEqVarError]
+    ObjectList& operator=(const ObjectList& other) {
+                ^
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.h:87:9: warning: Struct 'iterator' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+        iterator(type_of_val* ptr) : m_ptr(ptr) {}
+        ^
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:18:9: warning: Local variable 'size' shadows outer function [shadowFunction]
+    int size = size_of_list;
+        ^
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.h:67:12: note: Shadowed declaration
+    size_t size() const{
+           ^
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:18:9: note: Shadow variable
+    int size = size_of_list;
+        ^
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:74:9: warning: Local variable 'size' shadows outer function [shadowFunction]
+    int size = size_of_list;
+        ^
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.h:67:12: note: Shadowed declaration
+    size_t size() const{
+           ^
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:74:9: note: Shadow variable
+    int size = size_of_list;
+        ^
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.h:48:17: warning: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+                current_pos++;
+                ^
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:127:9: warning: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+        current++;
+        ^
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:138:9: warning: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+        current_pos++;
+        ^
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/stringObject.h:15:5: warning: Class 'StringObject' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    StringObject(std::string given_string): text(std::move(given_string)){};
+    ^
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:69:0: warning: The function 'front' is never used. [unusedFunction]
+ObjectList::value_type &ObjectList::front() {
+^
+/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:118:0: warning: The function 'erase' is never used. [unusedFunction]
+void ObjectList::erase(ObjectList::iterator position) {
+^

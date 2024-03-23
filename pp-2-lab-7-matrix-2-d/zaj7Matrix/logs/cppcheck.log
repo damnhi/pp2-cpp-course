@@ -1,0 +1,6 @@
+/tmp/tmpfsa68ice/student/zaj7Matrix/matrix.h:94:5: warning: Class 'TwoDimensionMatrix' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    TwoDimensionMatrix(const MatrixElement matrix[size_][size_]);
+    ^
+/tmp/tmpfsa68ice/student/zaj7Matrix/main.cpp:64:0: warning: The function 'compileTimeIsDigit' is never used. [unusedFunction]
+constexpr inline bool compileTimeIsDigit(const char* text) noexcept
+^

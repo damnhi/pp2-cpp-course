@@ -1,0 +1,59 @@
+[  7%] Building CXX object tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 14%] Linking CXX static library ../../../lib/libgtest.a
+[ 14%] Built target gtest
+[ 21%] Building CXX object tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 28%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 28%] Built target gtest_main
+[ 35%] Building CXX object tests/CMakeFiles/tests.dir/engineTests.cpp.o
+[ 42%] Building CXX object tests/CMakeFiles/tests.dir/enemyTests.cpp.o
+[ 50%] Building CXX object tests/CMakeFiles/tests.dir/__/stage.cpp.o
+[ 57%] Building CXX object tests/CMakeFiles/tests.dir/__/object.cpp.o
+[ 71%] Building CXX object tests/CMakeFiles/tests.dir/playerTests.cpp.o
+[ 71%] Building CXX object tests/CMakeFiles/tests.dir/objectTests.cpp.o
+[ 78%] Building CXX object tests/CMakeFiles/tests.dir/shootTests.cpp.o
+[ 85%] Building CXX object tests/CMakeFiles/tests.dir/__/enemy.cpp.o
+[ 92%] Building CXX object tests/CMakeFiles/tests.dir/__/engine.cpp.o
+In file included from /tmp/tmp6e96du03/student/lab3inheritance/object.cpp:1:
+/tmp/tmp6e96du03/student/lab3inheritance/object.h:38:57: warning: left operand of comma operator has no effect [-Wunused-value]
+   38 |         explicit Object(ObjectType type, Position pos= (0,0)): type_(type) , position_(pos){};
+      |                                                         ^
+In file included from /tmp/tmp6e96du03/student/lab3inheritance/enemy.h:4,
+                 from /tmp/tmp6e96du03/student/lab3inheritance/enemy.cpp:1:
+/tmp/tmp6e96du03/student/lab3inheritance/object.h:38:57: warning: left operand of comma operator has no effect [-Wunused-value]
+   38 |         explicit Object(ObjectType type, Position pos= (0,0)): type_(type) , position_(pos){};
+      |                                                         ^
+In file included from /tmp/tmp6e96du03/student/lab3inheritance/player.h:4,
+                 from /tmp/tmp6e96du03/student/lab3inheritance/engine.cpp:3:
+/tmp/tmp6e96du03/student/lab3inheritance/object.h:38:57: warning: left operand of comma operator has no effect [-Wunused-value]
+   38 |         explicit Object(ObjectType type, Position pos= (0,0)): type_(type) , position_(pos){};
+      |                                                         ^
+/tmp/tmp6e96du03/student/lab3inheritance/engine.cpp: In member function ‘void Engine::randEnemies(Position (*)(int, int))’:
+/tmp/tmp6e96du03/student/lab3inheritance/engine.cpp:135:37: warning: unused parameter ‘positionGenerator’ [-Wunused-parameter]
+  135 | void Engine::randEnemies(Position (*positionGenerator)(int,int))
+      |                          ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /tmp/tmp6e96du03/student/lab3inheritance/tests/../player.h:4,
+                 from /tmp/tmp6e96du03/student/lab3inheritance/tests/playerTests.cpp:5:
+/tmp/tmp6e96du03/student/lab3inheritance/tests/../object.h:38:57: warning: left operand of comma operator has no effect [-Wunused-value]
+   38 |         explicit Object(ObjectType type, Position pos= (0,0)): type_(type) , position_(pos){};
+      |                                                         ^
+In file included from /tmp/tmp6e96du03/student/lab3inheritance/tests/objectTests.cpp:5:
+/tmp/tmp6e96du03/student/lab3inheritance/tests/../object.h:38:57: warning: left operand of comma operator has no effect [-Wunused-value]
+   38 |         explicit Object(ObjectType type, Position pos= (0,0)): type_(type) , position_(pos){};
+      |                                                         ^
+In file included from /tmp/tmp6e96du03/student/lab3inheritance/tests/../shoot.h:4,
+                 from /tmp/tmp6e96du03/student/lab3inheritance/tests/shootTests.cpp:5:
+/tmp/tmp6e96du03/student/lab3inheritance/tests/../object.h:38:57: warning: left operand of comma operator has no effect [-Wunused-value]
+   38 |         explicit Object(ObjectType type, Position pos= (0,0)): type_(type) , position_(pos){};
+      |                                                         ^
+In file included from /tmp/tmp6e96du03/student/lab3inheritance/tests/../enemy.h:4,
+                 from /tmp/tmp6e96du03/student/lab3inheritance/tests/enemyTests.cpp:5:
+/tmp/tmp6e96du03/student/lab3inheritance/tests/../object.h:38:57: warning: left operand of comma operator has no effect [-Wunused-value]
+   38 |         explicit Object(ObjectType type, Position pos= (0,0)): type_(type) , position_(pos){};
+      |                                                         ^
+In file included from /tmp/tmp6e96du03/student/lab3inheritance/tests/../shoot.h:4,
+                 from /tmp/tmp6e96du03/student/lab3inheritance/tests/engineTests.cpp:7:
+/tmp/tmp6e96du03/student/lab3inheritance/tests/../object.h:38:57: warning: left operand of comma operator has no effect [-Wunused-value]
+   38 |         explicit Object(ObjectType type, Position pos= (0,0)): type_(type) , position_(pos){};
+      |                                                         ^
+[100%] Linking CXX executable ../bin/tests
+[100%] Built target tests

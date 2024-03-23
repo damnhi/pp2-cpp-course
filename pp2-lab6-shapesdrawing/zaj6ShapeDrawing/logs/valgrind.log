@@ -1,0 +1,53 @@
+==176== Memcheck, a memory error detector
+==176== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==176== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==176== Command: /tmp/tmpdrqlgl41/student/zaj6ShapeDrawing/build//bin/tests
+==176== 
+Running main() from /tmp/tmpdrqlgl41/student/zaj6ShapeDrawing/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 12 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from RectangleTester
+[ RUN      ] RectangleTester.constructorOfRectangleStartingInBeginningOfSystemCoordinate
+[       OK ] RectangleTester.constructorOfRectangleStartingInBeginningOfSystemCoordinate (17 ms)
+[ RUN      ] RectangleTester.isInMethodOfRectangleStartingInBeginningOfCoordinateSystem
+[       OK ] RectangleTester.isInMethodOfRectangleStartingInBeginningOfCoordinateSystem (5 ms)
+[ RUN      ] RectangleTester.isInMethodOfRectangleStartingNotInBeginningOfCoordinateSystem
+[       OK ] RectangleTester.isInMethodOfRectangleStartingNotInBeginningOfCoordinateSystem (5 ms)
+[ RUN      ] RectangleTester.constructorOfRectangleWithBothSitesEqualToZero
+[       OK ] RectangleTester.constructorOfRectangleWithBothSitesEqualToZero (3 ms)
+[----------] 4 tests from RectangleTester (40 ms total)
+
+[----------] 4 tests from CircleTester
+[ RUN      ] CircleTester.constructorOfCircleStartingInBeginningOfCoordinateSystem
+[       OK ] CircleTester.constructorOfCircleStartingInBeginningOfCoordinateSystem (3 ms)
+[ RUN      ] CircleTester.isInMethodOfCircleStartingInBeginningOfCoordinateSystem
+[       OK ] CircleTester.isInMethodOfCircleStartingInBeginningOfCoordinateSystem (9 ms)
+[ RUN      ] CircleTester.isInMethodOfCircleStartingNotInBeginningOfCoordinateSystem
+[       OK ] CircleTester.isInMethodOfCircleStartingNotInBeginningOfCoordinateSystem (4 ms)
+[ RUN      ] CircleTester.constructorOfCircleWithRadiusEqualToZero
+[       OK ] CircleTester.constructorOfCircleWithRadiusEqualToZero (3 ms)
+[----------] 4 tests from CircleTester (21 ms total)
+
+[----------] 4 tests from ShapeCompositeTester
+[ RUN      ] ShapeCompositeTester.sumOfSqhareAndCircle
+[       OK ] ShapeCompositeTester.sumOfSqhareAndCircle (13 ms)
+[ RUN      ] ShapeCompositeTester.intersectionOfSqhareAndCircle
+[       OK ] ShapeCompositeTester.intersectionOfSqhareAndCircle (5 ms)
+[ RUN      ] ShapeCompositeTester.differenceOfSqhareAndCircle
+[       OK ] ShapeCompositeTester.differenceOfSqhareAndCircle (4 ms)
+[ RUN      ] ShapeCompositeTester.drawingHouse
+[       OK ] ShapeCompositeTester.drawingHouse (11 ms)
+[----------] 4 tests from ShapeCompositeTester (35 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 3 test suites ran. (145 ms total)
+[  PASSED  ] 12 tests.
+==176== 
+==176== HEAP SUMMARY:
+==176==     in use at exit: 0 bytes in 0 blocks
+==176==   total heap usage: 434 allocs, 434 frees, 137,350 bytes allocated
+==176== 
+==176== All heap blocks were freed -- no leaks are possible
+==176== 
+==176== For lists of detected and suppressed errors, rerun with: -s
+==176== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

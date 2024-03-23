@@ -1,0 +1,44 @@
+Running main() from /tmp/tmpaazfl4uj/student/lab2systems/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 16 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 9 tests from LinuxTester
+[ RUN      ] LinuxTester.defaultConstructor
+[       OK ] LinuxTester.defaultConstructor (0 ms)
+[ RUN      ] LinuxTester.constructorWithSingleArgument
+[       OK ] LinuxTester.constructorWithSingleArgument (0 ms)
+[ RUN      ] LinuxTester.destructor
+[       OK ] LinuxTester.destructor (0 ms)
+[ RUN      ] LinuxTester.addSingleUser_expectedUserIdReturned
+[       OK ] LinuxTester.addSingleUser_expectedUserIdReturned (0 ms)
+[ RUN      ] LinuxTester.user_expectedNewlyAddedUserReturned
+[       OK ] LinuxTester.user_expectedNewlyAddedUserReturned (0 ms)
+[ RUN      ] LinuxTester.userHomeDirectory_expectedCorrectUserHomeDirectoryReturned
+[       OK ] LinuxTester.userHomeDirectory_expectedCorrectUserHomeDirectoryReturned (0 ms)
+[ RUN      ] LinuxTester.instanceConstructionAndDestruction_expectedOpenSourceSympathizersChanges
+[       OK ] LinuxTester.instanceConstructionAndDestruction_expectedOpenSourceSympathizersChanges (0 ms)
+[ RUN      ] LinuxTester.characterType_definedInsideClass
+[       OK ] LinuxTester.characterType_definedInsideClass (0 ms)
+[ RUN      ] LinuxTester.testOptionalGraphicEnvironment
+[       OK ] LinuxTester.testOptionalGraphicEnvironment (0 ms)
+[----------] 9 tests from LinuxTester (0 ms total)
+
+[----------] 7 tests from WindowsTester
+[ RUN      ] WindowsTester.defaultConstructor
+[       OK ] WindowsTester.defaultConstructor (0 ms)
+[ RUN      ] WindowsTester.constructorWithSingleArgument
+[       OK ] WindowsTester.constructorWithSingleArgument (0 ms)
+[ RUN      ] WindowsTester.addSingleUser_expectedUserIdReturned
+[       OK ] WindowsTester.addSingleUser_expectedUserIdReturned (0 ms)
+[ RUN      ] WindowsTester.user_expectedNewlyAddedUserReturned
+[       OK ] WindowsTester.user_expectedNewlyAddedUserReturned (0 ms)
+[ RUN      ] WindowsTester.userHomeDirectory_expectedCorrectUserHomeDirectoryReturned
+[       OK ] WindowsTester.userHomeDirectory_expectedCorrectUserHomeDirectoryReturned (0 ms)
+[ RUN      ] WindowsTester.instanceConstructionAndDestruction_expectedOpenSourceSympathizersChanges
+[       OK ] WindowsTester.instanceConstructionAndDestruction_expectedOpenSourceSympathizersChanges (0 ms)
+[ RUN      ] WindowsTester.characterType_definedInsideClass
+[       OK ] WindowsTester.characterType_definedInsideClass (0 ms)
+[----------] 7 tests from WindowsTester (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 16 tests.

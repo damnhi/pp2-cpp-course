@@ -1,0 +1,26 @@
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:74:5:  [4] (buffer) strcpy:Does not check for buffer overflows when copying to destination [MS-banned] (CWE-120).  Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy easily misused). 
+    strcpy(temp_str, this->data_);
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:75:5:  [4] (buffer) strcat:Does not check for buffer overflows when concatenating to destination [MS-banned] (CWE-120).  Consider using strcat_s, strncat, strlcat, or snprintf (warning: strncat is easily misused). 
+    strcat(temp_str, second_string.data_);
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:19:5:  [2] (buffer) memcpy:Does not check for buffer overflows when copying to destination (CWE-120).  Make sure destination can always hold the source data. 
+    memcpy(data_, text, size_);
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:28:5:  [2] (buffer) memcpy:Does not check for buffer overflows when copying to destination (CWE-120).  Make sure destination can always hold the source data. 
+    memcpy(data_, text.data_, size_);
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:90:5:  [2] (buffer) memcpy:Does not check for buffer overflows when copying to destination (CWE-120).  Make sure destination can always hold the source data. 
+    memcpy( temp_string, this->data_+ pos, count);
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:17:52:  [1] (buffer) strlen:Does not handle strings that are not \0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  
+SimpleString::SimpleString(const char *text):size_(strlen(text)), capacity_(strlen(text)) {
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:17:77:  [1] (buffer) strlen:Does not handle strings that are not \0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  
+SimpleString::SimpleString(const char *text):size_(strlen(text)), capacity_(strlen(text)) {
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:45:36:  [1] (buffer) strlen:Does not handle strings that are not \0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  
+    std::size_t temp_text_length = strlen(new_text);
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:50:5:  [1] (buffer) strncpy:Easily used incorrectly; doesn't always \0-terminate or check for invalid pointers [MS-banned] (CWE-120).  
+    strncpy(data_, new_text, temp_text_length+1 );
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:72:27:  [1] (buffer) strlen:Does not handle strings that are not \0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  
+    size_t second_size_ = strlen(second_string.data_);
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:78:13:  [1] (buffer) strlen:Does not handle strings that are not \0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  
+    size_ = strlen(temp_str);
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:79:17:  [1] (buffer) strlen:Does not handle strings that are not \0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  
+    capacity_ = strlen(temp_str);
+/tmp/tmp59ho0fv4/student/lab4SimpleString/simpleString.cpp:98:27:  [1] (buffer) strlen:Does not handle strings that are not \0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  
+    size_t text1_length = strlen(text1.data_);

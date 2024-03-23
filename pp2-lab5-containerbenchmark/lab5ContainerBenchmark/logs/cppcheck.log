@@ -1,0 +1,9 @@
+/tmp/tmpq55guvq6/student/lab5ContainerBenchmark/containerWrapper.cpp:28:13: warning: Consider using std::accumulate algorithm instead of a raw loop. [useStlAlgorithm]
+        sum += element;
+            ^
+/tmp/tmpq55guvq6/student/lab5ContainerBenchmark/containerWrapper.cpp:25:0: warning: The function 'count' is never used. [unusedFunction]
+value_type DequeWrapper::count() const {
+^
+/tmp/tmpq55guvq6/student/lab5ContainerBenchmark/containerWrapper.cpp:33:0: warning: The function 'find' is never used. [unusedFunction]
+std::size_t DequeWrapper::find(const value_type& needle) const {
+^

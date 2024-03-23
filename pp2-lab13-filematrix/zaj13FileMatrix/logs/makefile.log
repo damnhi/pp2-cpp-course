@@ -1,0 +1,71 @@
+[ 14%] Building CXX object unitTests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 28%] Linking CXX static library ../../../lib/libgtest.a
+[ 28%] Built target gtest
+[ 42%] Building CXX object unitTests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 57%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 57%] Built target gtest_main
+[ 85%] Building CXX object unitTests/CMakeFiles/unit_tests.dir/FileMatrixTests.cpp.o
+[ 85%] Building CXX object unitTests/CMakeFiles/unit_tests.dir/__/FileMatrix.cpp.o
+In file included from /tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.cpp:12:
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp: In instantiation of ‘FileMatrix<T, IndexType>& FileMatrix<T, IndexType>::operator*=(const T&) [with T = signed char; IndexType = long unsigned int]’:
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.cpp:14:16:   required from here
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp:331:44: warning: no return statement in function returning non-void [-Wreturn-type]
+  331 |     FileMatrix& operator*=(const T& value){};
+      |                                            ^
+      |                                            return *this;
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp: In instantiation of ‘FileMatrix<T, IndexType>& FileMatrix<T, IndexType>::operator*=(const T&) [with T = short int; IndexType = long unsigned int]’:
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.cpp:15:16:   required from here
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp:331:44: warning: no return statement in function returning non-void [-Wreturn-type]
+  331 |     FileMatrix& operator*=(const T& value){};
+      |                                            ^
+      |                                            return *this;
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp: In instantiation of ‘FileMatrix<T, IndexType>& FileMatrix<T, IndexType>::operator*=(const T&) [with T = int; IndexType = long unsigned int]’:
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.cpp:16:16:   required from here
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp:331:44: warning: no return statement in function returning non-void [-Wreturn-type]
+  331 |     FileMatrix& operator*=(const T& value){};
+      |                                            ^
+      |                                            return *this;
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp: In instantiation of ‘FileMatrix<T, IndexType>& FileMatrix<T, IndexType>::operator*=(const T&) [with T = long int; IndexType = long unsigned int]’:
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.cpp:17:16:   required from here
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp:331:44: warning: no return statement in function returning non-void [-Wreturn-type]
+  331 |     FileMatrix& operator*=(const T& value){};
+      |                                            ^
+      |                                            return *this;
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp: In instantiation of ‘FileMatrix<T, IndexType>& FileMatrix<T, IndexType>::operator*=(const T&) [with T = double; IndexType = long unsigned int]’:
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.cpp:18:16:   required from here
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp:331:44: warning: no return statement in function returning non-void [-Wreturn-type]
+  331 |     FileMatrix& operator*=(const T& value){};
+      |                                            ^
+      |                                            return *this;
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp: In instantiation of ‘FileMatrix<T, IndexType>& FileMatrix<T, IndexType>::operator*=(const T&) [with T = float; IndexType = long unsigned int]’:
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.cpp:19:16:   required from here
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp:331:44: warning: no return statement in function returning non-void [-Wreturn-type]
+  331 |     FileMatrix& operator*=(const T& value){};
+      |                                            ^
+      |                                            return *this;
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp: In instantiation of ‘FileMatrix<T, IndexType>& FileMatrix<T, IndexType>::operator*=(const T&) [with T = long unsigned int; IndexType = long unsigned int]’:
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.cpp:20:16:   required from here
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp:331:44: warning: no return statement in function returning non-void [-Wreturn-type]
+  331 |     FileMatrix& operator*=(const T& value){};
+      |                                            ^
+      |                                            return *this;
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp: In instantiation of ‘FileMatrix<T, IndexType>& FileMatrix<T, IndexType>::operator*=(const T&) [with T = char; IndexType = long unsigned int]’:
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.cpp:21:16:   required from here
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp:331:44: warning: no return statement in function returning non-void [-Wreturn-type]
+  331 |     FileMatrix& operator*=(const T& value){};
+      |                                            ^
+      |                                            return *this;
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp: In instantiation of ‘FileMatrix<T, IndexType>& FileMatrix<T, IndexType>::operator*=(const T&) [with T = unsigned int; IndexType = long unsigned int]’:
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.cpp:24:16:   required from here
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp:331:44: warning: no return statement in function returning non-void [-Wreturn-type]
+  331 |     FileMatrix& operator*=(const T& value){};
+      |                                            ^
+      |                                            return *this;
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp: In instantiation of ‘FileMatrix<T, IndexType>& FileMatrix<T, IndexType>::operator*=(const T&) [with T = long long unsigned int; IndexType = long unsigned int]’:
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.cpp:26:16:   required from here
+/tmp/tmptes_9q19/student/zaj13FileMatrix/FileMatrix.hpp:331:44: warning: no return statement in function returning non-void [-Wreturn-type]
+  331 |     FileMatrix& operator*=(const T& value){};
+      |                                            ^
+      |                                            return *this;
+[100%] Linking CXX executable ../bin/unit_tests
+[100%] Built target unit_tests

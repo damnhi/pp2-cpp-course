@@ -1,0 +1,127 @@
+{
+  "tests": 6,
+  "failures": 5,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2023-05-23T19:44:46Z",
+  "time": "0.01s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "CommandsParserSystemTester",
+      "tests": 2,
+      "failures": 1,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2023-05-23T19:44:46Z",
+      "time": "0.004s",
+      "testsuite": [
+        {
+          "name": "executingOurProgramWithoutAnyInput_expectedNoOutput",
+          "file": "\/tmp\/tmpi8txaue0\/student\/zaj8i9UniqueObjectList_and_parser\/systemTests\/executableTests.cpp",
+          "line": 179,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-05-23T19:44:46Z",
+          "time": "0.001s",
+          "classname": "CommandsParserSystemTester"
+        },
+        {
+          "name": "testInvalidCommand",
+          "file": "\/tmp\/tmpi8txaue0\/student\/zaj8i9UniqueObjectList_and_parser\/systemTests\/executableTests.cpp",
+          "line": 188,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-05-23T19:44:46Z",
+          "time": "0.002s",
+          "classname": "CommandsParserSystemTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpi8txaue0\/student\/zaj8i9UniqueObjectList_and_parser\/systemTests\/executableTests.cpp:198\nExpected equality of these values:\n  expectedLinesOfStderrOutput\n    Which is: 1\n  output.linesOfStderr_.size()\n    Which is: 0",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CommandsParserSystemTester\/CommandsParserSystemTester",
+      "tests": 4,
+      "failures": 4,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2023-05-23T19:44:46Z",
+      "time": "0.006s",
+      "testsuite": [
+        {
+          "name": "testVariousScenariosUsingInputAndOutputFiles\/0",
+          "value_param": "\"sumStringObject\"",
+          "file": "\/tmp\/tmpi8txaue0\/student\/zaj8i9UniqueObjectList_and_parser\/systemTests\/executableTests.cpp",
+          "line": 202,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-05-23T19:44:46Z",
+          "time": "0.001s",
+          "classname": "CommandsParserSystemTester\/CommandsParserSystemTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpi8txaue0\/student\/zaj8i9UniqueObjectList_and_parser\/systemTests\/executableTests.cpp:208\nExpected equality of these values:\n  expectedOutputFileLines.size()\n    Which is: 1\n  output.linesOfStdout_.size()\n    Which is: 0\nexpectedOutput:\nStringObject(\"Kazdy test, ktory przechodzi, to wiecej punktow!\")\n\nrealOutput:\n",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "testVariousScenariosUsingInputAndOutputFiles\/1",
+          "value_param": "\"sumDoubleObject\"",
+          "file": "\/tmp\/tmpi8txaue0\/student\/zaj8i9UniqueObjectList_and_parser\/systemTests\/executableTests.cpp",
+          "line": 202,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-05-23T19:44:46Z",
+          "time": "0.001s",
+          "classname": "CommandsParserSystemTester\/CommandsParserSystemTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpi8txaue0\/student\/zaj8i9UniqueObjectList_and_parser\/systemTests\/executableTests.cpp:208\nExpected equality of these values:\n  expectedOutputFileLines.size()\n    Which is: 1\n  output.linesOfStdout_.size()\n    Which is: 0\nexpectedOutput:\nDoubleObject(5.000000)\n\nrealOutput:\n",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "testVariousScenariosUsingInputAndOutputFiles\/2",
+          "value_param": "\"mulDifferentTypes\"",
+          "file": "\/tmp\/tmpi8txaue0\/student\/zaj8i9UniqueObjectList_and_parser\/systemTests\/executableTests.cpp",
+          "line": 202,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-05-23T19:44:46Z",
+          "time": "0.001s",
+          "classname": "CommandsParserSystemTester\/CommandsParserSystemTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpi8txaue0\/student\/zaj8i9UniqueObjectList_and_parser\/systemTests\/executableTests.cpp:208\nExpected equality of these values:\n  expectedOutputFileLines.size()\n    Which is: 4\n  output.linesOfStdout_.size()\n    Which is: 0\nexpectedOutput:\nIntObject(6)\nDoubleObject(10.000000)\nStringObject(\"Grazyna i JanuszGrazyna i Janusz\")\nComplexObject(8+4i)\n\nrealOutput:\n",
+              "type": ""
+            }
+          ]
+        },
+        {
+          "name": "testVariousScenariosUsingInputAndOutputFiles\/3",
+          "value_param": "\"getByIndexComplexObject\"",
+          "file": "\/tmp\/tmpi8txaue0\/student\/zaj8i9UniqueObjectList_and_parser\/systemTests\/executableTests.cpp",
+          "line": 202,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-05-23T19:44:46Z",
+          "time": "0.001s",
+          "classname": "CommandsParserSystemTester\/CommandsParserSystemTester",
+          "failures": [
+            {
+              "failure": "\/tmp\/tmpi8txaue0\/student\/zaj8i9UniqueObjectList_and_parser\/systemTests\/executableTests.cpp:208\nExpected equality of these values:\n  expectedOutputFileLines.size()\n    Which is: 5\n  output.linesOfStdout_.size()\n    Which is: 0\nexpectedOutput:\nComplexObject(1+4i)\nComplexObject(4-2i)\nComplexObject(44)\nComplexObject(0+22i)\nComplexObject(0+1i)\n\nrealOutput:\n",
+              "type": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Katalog do zbudowanego projektu: /tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/build
+ + Znaleziono nagłówki: /tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/object.h;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.h;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/stringObject.h
+ + Znaleziono źródła: /tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/main.cpp;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/object.cpp;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/stringObject.cpp
+ + Znaleziono źródła bez main.cpp: /tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/object.cpp;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/stringObject.cpp
+	* valgrind found: /usr/bin/valgrind
+-- Found Python: /tmp/tmp5z06kbvy/teacher/test-venv/bin/python3 (found version "3.11.0") found components: Interpreter 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+ + Znaleziono pliki testów: /tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/unitTests/objectUniqueListTest.cpp
+ + katalog nagłówków: 
+Boost: /tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/libs/boost_1_81/
+ + Znaleziono pliki wejścia/wyjścia do testów: /tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/inputOutputData/getByIndexComplexObject.in.txt;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/inputOutputData/getByIndexComplexObject.out.txt;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/inputOutputData/mulDifferentTypes.in.txt;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/inputOutputData/mulDifferentTypes.out.txt;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/inputOutputData/sumDoubleObject.in.txt;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/inputOutputData/sumDoubleObject.out.txt;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/inputOutputData/sumStringObject.in.txt;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/inputOutputData/sumStringObject.out.txt;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/inputOutputData/sumStringObjectWhenNoStringObject.in.txt;/tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/systemTests/inputOutputData/sumStringObjectWhenNoStringObject.out.txt
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmpi8txaue0/student/zaj8i9UniqueObjectList_and_parser/build

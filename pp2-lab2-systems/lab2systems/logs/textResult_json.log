@@ -1,0 +1,193 @@
+{
+  "tests": 16,
+  "failures": 0,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2023-03-18T19:24:27Z",
+  "time": "0s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "LinuxTester",
+      "tests": 9,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2023-03-18T19:24:27Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "defaultConstructor",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/linuxTests.cpp",
+          "line": 47,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "LinuxTester"
+        },
+        {
+          "name": "constructorWithSingleArgument",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/linuxTests.cpp",
+          "line": 59,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "LinuxTester"
+        },
+        {
+          "name": "destructor",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/linuxTests.cpp",
+          "line": 73,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "LinuxTester"
+        },
+        {
+          "name": "addSingleUser_expectedUserIdReturned",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/linuxTests.cpp",
+          "line": 88,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "LinuxTester"
+        },
+        {
+          "name": "user_expectedNewlyAddedUserReturned",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/linuxTests.cpp",
+          "line": 102,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "LinuxTester"
+        },
+        {
+          "name": "userHomeDirectory_expectedCorrectUserHomeDirectoryReturned",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/linuxTests.cpp",
+          "line": 118,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "LinuxTester"
+        },
+        {
+          "name": "instanceConstructionAndDestruction_expectedOpenSourceSympathizersChanges",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/linuxTests.cpp",
+          "line": 134,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "LinuxTester"
+        },
+        {
+          "name": "characterType_definedInsideClass",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/linuxTests.cpp",
+          "line": 169,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "LinuxTester"
+        },
+        {
+          "name": "testOptionalGraphicEnvironment",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/linuxTests.cpp",
+          "line": 180,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "LinuxTester"
+        }
+      ]
+    },
+    {
+      "name": "WindowsTester",
+      "tests": 7,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2023-03-18T19:24:27Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "defaultConstructor",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/windowsTests.cpp",
+          "line": 46,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "WindowsTester"
+        },
+        {
+          "name": "constructorWithSingleArgument",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/windowsTests.cpp",
+          "line": 62,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "WindowsTester"
+        },
+        {
+          "name": "addSingleUser_expectedUserIdReturned",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/windowsTests.cpp",
+          "line": 80,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "WindowsTester"
+        },
+        {
+          "name": "user_expectedNewlyAddedUserReturned",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/windowsTests.cpp",
+          "line": 98,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "WindowsTester"
+        },
+        {
+          "name": "userHomeDirectory_expectedCorrectUserHomeDirectoryReturned",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/windowsTests.cpp",
+          "line": 118,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "WindowsTester"
+        },
+        {
+          "name": "instanceConstructionAndDestruction_expectedOpenSourceSympathizersChanges",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/windowsTests.cpp",
+          "line": 138,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "WindowsTester"
+        },
+        {
+          "name": "characterType_definedInsideClass",
+          "file": "\/tmp\/tmpaazfl4uj\/student\/lab2systems\/tests\/windowsTests.cpp",
+          "line": 169,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-18T19:24:27Z",
+          "time": "0s",
+          "classname": "WindowsTester"
+        }
+      ]
+    }
+  ]
+}

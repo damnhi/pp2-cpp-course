@@ -1,0 +1,39 @@
+Running main() from /tmp/tmptes_9q19/student/zaj13FileMatrix/unitTests/lib/googletest/src/gtest_main.cc
+[==========] Running 15 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 15 tests from FileMatrixTester
+[ RUN      ] FileMatrixTester.initialisationOfSingleElementMatrix_expectedFileCreated
+[       OK ] FileMatrixTester.initialisationOfSingleElementMatrix_expectedFileCreated (0 ms)
+[ RUN      ] FileMatrixTester.initialisationOfMatrixSingleColumnButMultipleRows_expectedFileWithProperSizeCreated
+[       OK ] FileMatrixTester.initialisationOfMatrixSingleColumnButMultipleRows_expectedFileWithProperSizeCreated (0 ms)
+[ RUN      ] FileMatrixTester.initialisationOfMatrixMultipleColumnAndSingleRow_expectedFileWithProperSizeCreated
+[       OK ] FileMatrixTester.initialisationOfMatrixMultipleColumnAndSingleRow_expectedFileWithProperSizeCreated (0 ms)
+[ RUN      ] FileMatrixTester.initialisationOfSquareMatrixMultipleColumnAndMultipleRows_expectedFileWithProperSizeCreated
+[       OK ] FileMatrixTester.initialisationOfSquareMatrixMultipleColumnAndMultipleRows_expectedFileWithProperSizeCreated (0 ms)
+[ RUN      ] FileMatrixTester.accesingMatrixDataWithTooGreatIndex_expectedThrowingOutOfRangeException
+[       OK ] FileMatrixTester.accesingMatrixDataWithTooGreatIndex_expectedThrowingOutOfRangeException (0 ms)
+[ RUN      ] FileMatrixTester.accesingMatrixElementsWithIndex_expectedSucessfullWriteAndRead
+[       OK ] FileMatrixTester.accesingMatrixElementsWithIndex_expectedSucessfullWriteAndRead (0 ms)
+[ RUN      ] FileMatrixTester.comparingOfMatrixesWithTheSameData_expectedComparationReturnsTrue
+[       OK ] FileMatrixTester.comparingOfMatrixesWithTheSameData_expectedComparationReturnsTrue (6 ms)
+[ RUN      ] FileMatrixTester.comparingDifferentMatrixesWithTheSameNumberOfRowsAndColumnsButDifferentData_expectedComparationReturnsFalse
+[       OK ] FileMatrixTester.comparingDifferentMatrixesWithTheSameNumberOfRowsAndColumnsButDifferentData_expectedComparationReturnsFalse (0 ms)
+[ RUN      ] FileMatrixTester.copyConstruction_expectedFileCopiedWithEqualBinaryData
+[       OK ] FileMatrixTester.copyConstruction_expectedFileCopiedWithEqualBinaryData (254 ms)
+[ RUN      ] FileMatrixTester.assignmentOperatorCopying_expectedMatricesTheSame
+[       OK ] FileMatrixTester.assignmentOperatorCopying_expectedMatricesTheSame (355 ms)
+[ RUN      ] FileMatrixTester.moveConstruction_expectedFileMovedButSourceObjectUsable
+[       OK ] FileMatrixTester.moveConstruction_expectedFileMovedButSourceObjectUsable (205 ms)
+[ RUN      ] FileMatrixTester.assignmentOperatorMoving_expectedFileMovedButSourceObjectUsable
+[       OK ] FileMatrixTester.assignmentOperatorMoving_expectedFileMovedButSourceObjectUsable (211 ms)
+[ RUN      ] FileMatrixTester.containerHasBeginEndMethodsReturningIterator
+[       OK ] FileMatrixTester.containerHasBeginEndMethodsReturningIterator (0 ms)
+[ RUN      ] FileMatrixTester.containerHasIteratowWorkingWithForLoop
+[       OK ] FileMatrixTester.containerHasIteratowWorkingWithForLoop (0 ms)
+[ RUN      ] FileMatrixTester.containerHasIteratowWorkingWithStl
+[       OK ] FileMatrixTester.containerHasIteratowWorkingWithStl (0 ms)
+[----------] 15 tests from FileMatrixTester (1035 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 1 test suite ran. (1036 ms total)
+[  PASSED  ] 15 tests.

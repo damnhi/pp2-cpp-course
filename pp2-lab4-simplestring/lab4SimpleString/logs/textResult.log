@@ -1,0 +1,37 @@
+Running main() from /tmp/tmp59ho0fv4/student/lab4SimpleString/tests/lib/googletest/src/gtest_main.cc
+[==========] Running 14 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 14 tests from SimpleStringTester
+[ RUN      ] SimpleStringTester.constructionWithDefaultConstructor_expectedAllElementsAreZero
+[       OK ] SimpleStringTester.constructionWithDefaultConstructor_expectedAllElementsAreZero (0 ms)
+[ RUN      ] SimpleStringTester.constructionFromText_expectedDataCopied
+[       OK ] SimpleStringTester.constructionFromText_expectedDataCopied (0 ms)
+[ RUN      ] SimpleStringTester.constructionFromEmptyText_expectedEmptyTextCopied
+[       OK ] SimpleStringTester.constructionFromEmptyText_expectedEmptyTextCopied (0 ms)
+[ RUN      ] SimpleStringTester.copyConstruction_expectedDataCopied
+[       OK ] SimpleStringTester.copyConstruction_expectedDataCopied (0 ms)
+[ RUN      ] SimpleStringTester.destructor_expectedMemoryFreed
+[       OK ] SimpleStringTester.destructor_expectedMemoryFreed (0 ms)
+[ RUN      ] SimpleStringTester.instanceMethod_expectedCountedAllLivingInstances
+[       OK ] SimpleStringTester.instanceMethod_expectedCountedAllLivingInstances (0 ms)
+[ RUN      ] SimpleStringTester.assign_expectedNewTextSet
+[       OK ] SimpleStringTester.assign_expectedNewTextSet (0 ms)
+[ RUN      ] SimpleStringTester.equalToWithoutIgnoringCases
+[       OK ] SimpleStringTester.equalToWithoutIgnoringCases (0 ms)
+[ RUN      ] SimpleStringTester.equalToWithDifferentCaseSettings
+[       OK ] SimpleStringTester.equalToWithDifferentCaseSettings (0 ms)
+[ RUN      ] SimpleStringTester.appendOneTextAnotherOne_expectedBothTextMerged
+[       OK ] SimpleStringTester.appendOneTextAnotherOne_expectedBothTextMerged (0 ms)
+[ RUN      ] SimpleStringTester.substr_expectedPartOfTextReturned
+[       OK ] SimpleStringTester.substr_expectedPartOfTextReturned (0 ms)
+[ RUN      ] SimpleStringTester.movingConstructor
+[       OK ] SimpleStringTester.movingConstructor (0 ms)
+[ RUN      ] SimpleStringTester.compareTextWithCases_expectedComparingWorks
+[       OK ] SimpleStringTester.compareTextWithCases_expectedComparingWorks (0 ms)
+[ RUN      ] SimpleStringTester.compareTextWithoutCases_expectedComparingWorks
+[       OK ] SimpleStringTester.compareTextWithoutCases_expectedComparingWorks (0 ms)
+[----------] 14 tests from SimpleStringTester (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 14 tests.
